@@ -1,14 +1,27 @@
 # Bot Name
 
-TODO: Write a project description
+Game Of Bots - Hackaton
 
 ## Installation
 
-TODO: Describe the installation process
+## Ubuntu
+
+$ sudo apt-get install golang
+$ go get -u -v github.com/Recime/recime-cli
+
+## Archlinux
+
+$ sudo pacman -S go
+$ go get -u -v github.com/Recime/recime-cli
+
+## Create symbolic link
+
+sudo ln -s /home/ramrodo/go/bin/recime-cli /usr/bin/recime-cli
 
 ## Usage
 
-TODO: Write usage instructions
+$ recime-cli login
+$ recime-cli deploy
 
 ## Contributing
 
@@ -20,12 +33,9 @@ TODO: Write usage instructions
 
 ## History
 
-TODO: Write history
 
 ## Credits
 
-TODO: Write credits
 
 ## License
 
-TODO: Write license
