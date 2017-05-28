@@ -1,6 +1,6 @@
 from selectorHandler import selectorHandler
 
-votHandler = selectorHandler(10,1)
+votHandler = selectorHandler(25,1)
 
 while True:
 	#votHandler.EXT_VOTRESREADY = True
