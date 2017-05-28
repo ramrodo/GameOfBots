@@ -13,19 +13,28 @@ export default class Bot {
      return new Promise ((resolve)=>{
 
        if (text){
-        resolve({
-          "text": "Lista de canciones:\n1.-Shakira\n2.-José José\n3.-Green Day\n"
-           });
-         if (text.indexOf("1") >= 0){
-           resolve({
-               "text": "¿Cómo te sientes con ésta canción"
-           });
-         }
-         else{
-           resolve({
-             text : `Selecciona una opción correcta`
-           });
-         }
+
+          switch (text) {
+            case '1':
+              resolve({"text": "Canción 1 elegida"});
+              break;
+            case '2':
+              resolve({"text": "Canción 2 elegida"});
+              break;
+            case '3':
+              resolve({"text": "Canción 3 elegida"});
+              break;
+            case '4':
+              resolve({"text": "Canción 4 elegida"});
+              break;
+            case '5':
+              resolve({"text": "Canción 5 elegida"});
+              break;
+            default:
+              resolve({"text": "Elige una opción correcta: 1, 2, 3, 4 o 5"});
+              break;
+          }
+
        }
      });
 

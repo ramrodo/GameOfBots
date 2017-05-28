@@ -4,19 +4,21 @@ Game Of Bots - Hackaton
 
 ## Installation
 
-## Ubuntu
+Ubuntu
 
 $ sudo apt-get install golang
+
 $ go get -u -v github.com/Recime/recime-cli
 
-## Archlinux
+Archlinux
 
 $ sudo pacman -S go
+
 $ go get -u -v github.com/Recime/recime-cli
 
-## Create symbolic link
+Create symbolic link
 
-sudo ln -s /home/ramrodo/go/bin/recime-cli /usr/bin/recime-cli
+$ sudo ln -s /home/ramrodo/go/bin/recime-cli /usr/bin/recime-cli
 
 ## Usage
 
