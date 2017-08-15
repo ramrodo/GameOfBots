@@ -8,7 +8,7 @@ export default class Bot {
 	execute(){
 		return new Promise((resolve)=>{
 			resolve({
-				"text" : "Hello! I'am a Recime bot. How may I help you?"
+				"text" : "Helo! I'am a Recime bot. How may I help you?"
 			});
 		});
 	}
